@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>CSS</title>
+    <style>
+body{
+  
+font-family: 'Arial', sans-serif;
+background-color: gray;
+color: black;
+}
+h1 {
+    color: cyan;
+}
+/* Attribute Selector */
+
+a{
+    color: coral;
+    text-decoration: none;
+}
+a:hover {color: blue;}
+ul > li
+ {font-weight: bold;
+color: lime;}
+
+h1+p {
+    background-color: darkgray;
+    padding: 20px;
+    border-radius: 6px;
+
+}
+ul  li :nth-child(3)
+{
+    background-color: darkgrey;
+
+}
+p:not(:first-of-type)
+{text-decoration: underline;}
+p::first-letter {
+    font-size: 200%;
+    font-weight: bold;
+}
+    </style>
+
+ 
+
+</head>
+
+<body>
+    <h1>I welcome you to the space explorations club</h1>
+    <ul>
+<li>Moon Missions</li>
+<li>Mars Rovers</li>
+<li>International Space Station</li>
+<li>Telescopes and Stars</li>
+<li>Black Holes Mysteries</li>
+    </ul>
+
+<p>Space exploration has always
+captivated human imagination.
+It's a journey to the unknown!</p>
+
+<p>From the Moon to distant galaxies,
+we continue to explore the
+vastness of space</p>
+<a href="#">Join our misson</a>
+<a href="#">Latest Space New</a>
+<a href="#">Gallery of the Universe</a>
+
+</body>
+
+</html>
